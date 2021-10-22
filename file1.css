@@ -1,31 +1,125 @@
-*{
-    background-color: #ffe6f2;
-    
-}
 body{
     font-family: 'Comic Neue', cursive;
     margin: 10px;
+    background-color: #ffe6f2;
     text-align: center;
 }
 img {
-    /* float: left; */
-    width:  500px;
-    height: 500px;
+    width: auto; 
+    height: auto;
     /* object-fit: cover; */
     
 }
+.box{
+    border: 2px solid grey;
+    /* height: 55vh; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.con{
+    background-color: red;
+    border: 2px solid black;
+    /* margin:12px; */
+    width: 30%;
+}
 
-.small-img {
+ .small-img {
     width: 200px;
     height: 200px;
 }
 
-/* m-2 means margin - 5 * 2 */
+.d-block {
+    display: block;
+}
+
+@media (max-width: 640px){
+    .box {
+        display: block;
+    }
+}
+
 .m-2 {
     margin: 10px;
 }
 
 /* p-2 means padding 5*2 px */
+
+.p-2 {
+    padding: 10px;
+}
+
+.m-4 {
+    margin: 20px;
+}
+
+/* p-2 means padding 5*2 px */
+
+.p-4 {
+    padding: 20px;
+}
+.my_form{
+    background-color: black;
+    
+}
+.white-font{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    align: center
+}
+
+/* #1{
+    width: 20%;
+    height: 20%;
+}
+#2{
+    width: 20%;
+    height: 20%;
+}
+#3{
+    width: 20%;
+    height: 20%;
+}
+#4{
+    width: 20%;
+    height: 20%;
+}
+#5{
+    width: 20%;
+    height: 20%;
+}
+#6{
+    width: 20%;
+    height: 20%;
+}
+#7{
+    width: 20%;
+    height: 20%;
+}
+#8{
+    width: 20%;
+    height: 20%;
+}
+#9{
+    width: 20%;
+    height: 20%;
+}
+#10{
+    width: 20%;
+    height: 20%;
+} */
+
+/*
+m-2 means margin - 5 * 2 
+ .m-2 {
+    margin: 10px;
+}
+
+p-2 means padding 5*2 px
 
 .p-2 {
     padding: 10px;
@@ -51,7 +145,7 @@ img {
 .box2  {    
     width: 45%;
     border: 1px solid black; 
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     padding: 1em; 
     margin: 1em;
     float:left;
@@ -65,7 +159,7 @@ img {
 .box3  {    
     width: 45%;
     border: 1px solid black; 
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     padding: 1em; 
     margin: 1em;
     float:left;
@@ -79,7 +173,7 @@ img {
 .box4  {    
     width: 45%;
     border: 1px solid black; 
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     padding: 1em; 
     margin: 1em;
     float:left;
@@ -93,7 +187,7 @@ img {
 .box5  {    
     width: 45%;
     border: 1px solid black; 
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     padding: 1em; 
     margin: 1em;
     float:left;
@@ -107,7 +201,7 @@ img {
 .box6  {    
     width: 45%;
     border: 1px solid black; 
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     padding: 1em; 
     margin: 1em;
     float:left;
@@ -121,7 +215,7 @@ img {
 .box7  {    
     width: 45%;
     border: 1px solid black; 
-    /* box-sizing: border-box; */
+     box-sizing: border-box; 
     padding: 1em; 
     margin: 1em;
     float:left;
@@ -135,7 +229,7 @@ img {
 .box8  {    
     width: 45%;
     border: 1px solid black; 
-    /* box-sizing: border-box; */
+    box-sizing: border-box; 
     padding: 1em; 
     margin: 1em;
     float:left;
@@ -145,4 +239,4 @@ img {
 
 .con8 > img{
     width: 50%;
-}
+}  */
