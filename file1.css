@@ -1,0 +1,148 @@
+*{
+    background-color: #ffe6f2;
+    
+}
+body{
+    font-family: 'Comic Neue', cursive;
+    margin: 10px;
+    text-align: center;
+}
+img {
+    /* float: left; */
+    width:  500px;
+    height: 500px;
+    /* object-fit: cover; */
+    
+}
+
+.small-img {
+    width: 200px;
+    height: 200px;
+}
+
+/* m-2 means margin - 5 * 2 */
+.m-2 {
+    margin: 10px;
+}
+
+/* p-2 means padding 5*2 px */
+
+.p-2 {
+    padding: 10px;
+}
+
+.d-flex {
+    display: inline-flex;
+}
+
+.box1  {    
+    width: 45%;
+    border: 1px solid black; 
+    padding: 0.2em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con1 > img{
+    width: 50%;
+}
+.box2  {    
+    width: 45%;
+    border: 1px solid black; 
+    /* box-sizing: border-box; */
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con2 > img{
+    width: 50%;
+}
+.box3  {    
+    width: 45%;
+    border: 1px solid black; 
+    /* box-sizing: border-box; */
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con3 > img{
+    width: 50%;
+}
+.box4  {    
+    width: 45%;
+    border: 1px solid black; 
+    /* box-sizing: border-box; */
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con4 > img{
+    width: 50%;
+}
+.box5  {    
+    width: 45%;
+    border: 1px solid black; 
+    /* box-sizing: border-box; */
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con5 > img{
+    width: 50%;
+}
+.box6  {    
+    width: 45%;
+    border: 1px solid black; 
+    /* box-sizing: border-box; */
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con6 > img{
+    width: 50%;
+}
+.box7  {    
+    width: 45%;
+    border: 1px solid black; 
+    /* box-sizing: border-box; */
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con7 > img{
+    width: 50%;
+}
+.box8  {    
+    width: 45%;
+    border: 1px solid black; 
+    /* box-sizing: border-box; */
+    padding: 1em; 
+    margin: 1em;
+    float:left;
+    padding-bottom: 1em;
+}
+
+
+.con8 > img{
+    width: 50%;
+}
