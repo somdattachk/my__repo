@@ -1,13 +1,23 @@
 body{
+    
     font-family: 'Comic Neue', cursive;
     margin: 10px;
-    background-color: #ffe6f2;
-    text-align: center;
+    
+    background-image: url('2818993.jpg');
+    
+    text-align:justify;
+}
+.mkbg{
+    
+    font-weight:bolder;
+}
+.mkbg1{
+    font-size:xx-large;
+    font-weight:bolder;
 }
 img {
     width: auto; 
     height: auto;
-    /* object-fit: cover; */
     
 }
 .box{
@@ -69,7 +79,7 @@ img {
 }
 
 input {
-    align: center
+    text-align: center
 }
 
 /* #1{
